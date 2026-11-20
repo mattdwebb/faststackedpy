@@ -1,0 +1,9 @@
+{
+  "package": "faststackedpy",
+  "estimate": 1.7712433991919125,
+  "native_se": 0.2515544550019191,
+  "jackknife_se": 0.2851321750237912,
+  "jackknife_p": 6.603430309336781e-05,
+  "clusters": 12,
+  "jackknife_df": 11
+}

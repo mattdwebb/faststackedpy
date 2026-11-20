@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+readme = "README.md"
+name = "faststackedpy"
+version = "0.1.0"
+description = "Reference corrective-weighted stacked difference-in-differences"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Matthew D. Webb", email = "matt.webb@carleton.ca"}]
+dependencies = ["numpy>=1.24", "pandas>=2.0"]
+
+[tool.setuptools]
+packages = ["faststackedpy"]
+
+[project.optional-dependencies]
+examples = ["pandas>=2"]
+test = ["pytest>=7", "scipy"]
+
+[project.urls]
+Repository = "https://github.com/mattdwebb/faststackedpy"
+Issues = "https://github.com/mattdwebb/faststackedpy/issues"
